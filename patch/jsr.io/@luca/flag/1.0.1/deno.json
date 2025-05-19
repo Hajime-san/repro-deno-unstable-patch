@@ -1,0 +1,6 @@
+{
+  "name": "@luca/flag",
+  "exports" : {
+    ".": "./main.ts"
+  }
+}

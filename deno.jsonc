@@ -1,0 +1,9 @@
+{
+  "lock": false,
+  "imports": {
+    "@luca/flag": "jsr:@luca/flag"
+  },
+  "patch": [
+    "./patch/jsr.io/@luca/flag/1.0.1"
+  ]
+}
