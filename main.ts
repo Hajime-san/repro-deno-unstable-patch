@@ -1,2 +1,1 @@
-import { printProgress } from "@luca/flag";
-printProgress()
+export { printProgress } from "@luca/flag";
