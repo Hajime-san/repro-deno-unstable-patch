@@ -1,0 +1,9 @@
+{
+	"name": "is-unicode-supported",
+	"version": "2.1.0",
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	}
+}

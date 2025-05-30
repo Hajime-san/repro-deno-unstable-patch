@@ -1,0 +1,18 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:is-unicode-supported@2.1.0": "2.1.0"
+  },
+  "npm": {
+    "is-unicode-supported@2.1.0": {}
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@luca/flag@*",
+      "npm:is-unicode-supported@2.1.0"
+    ],
+    "patches": {
+      "npm:is-unicode-supported@2.1.0": {}
+    }
+  }
+}

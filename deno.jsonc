@@ -1,9 +1,12 @@
 {
-  "lock": false,
+  "nodeModulesDir": "auto",
   "imports": {
-    "@luca/flag": "jsr:@luca/flag"
+    "@luca/flag": "jsr:@luca/flag",
+    "is-unicode-supported": "npm:is-unicode-supported@2.1.0"
   },
   "patch": [
-    "./patch/jsr.io/@luca/flag/1.0.1"
-  ]
+    "./patch/jsr.io/@luca/flag/1.0.1",
+    "./patch/npm/is-unicode-supported/2.1.0"
+  ],
+  "unstable": ["npm-patch"]
 }
